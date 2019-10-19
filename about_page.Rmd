@@ -1,0 +1,24 @@
+---
+title: "About"
+author: "Cade Knox"
+date: "10/18/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Major League Baseball
+
+# Pitchers
+
+Pitchers have experienced an incline in strikeouts in recent years and it's many thanks to the way they're selecting their pitches. A lot of these pitchers are not throwing as many of the same pitch as guys were 10-15 years ago. This project looks at what could be behind that. We look at if where the pitchers come from is influencing their style of choice and we get that data from the *Lahman* package
+
+# Pitches
+
+We're able to analyze the pitches that each pitcher has thrown by looking at pitchFX data. This data shows us not only what pitches each pitcher has thrown in appearnaces but also how much movement was on each to see how effective it was. This comes from the *pitchRx* package. By grouping together all slider, curveballs, and changeups into a category of breaking balls, and two seamer and four seamers into fastballs, were able to determine if their are certain regions in the country where guys come from that they try to overpower more with fastballs or vice versa.
+
+
+
+
